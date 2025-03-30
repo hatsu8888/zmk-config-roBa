@@ -71,7 +71,7 @@
 &kp Q             &kp W         &kp E         &kp R                   &kp T                                                                   &kp Y      &kp U  &lt 0 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                   &kp G     &mkp MB2                         &kp MINUS                    &kp H      &kp J  &kp K      &kp L    &kp SQT
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B     &kp LEFT_BRACKET                 &kp RIGHT_BRACKET            &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 SPACE  &mkp MB1  &lt_to_layer_0 2 LANGUAGE_1      &lt_to_layer_0 1 LANGUAGE_2  &kp ENTER                             &kp ESCAPE
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 SPACE  &mkp MB1  &lt_to_layer_0 2 LANGUAGE_1      &lt_to_layer_0 1 LANGUAGE_4  &kp ENTER                             &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -79,10 +79,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                      &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp F11  &kp F12  &kp F13  &kp F14  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans   &trans   &trans   &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans   &trans   &trans   &trans  &trans      &trans  &trans                          &trans
+&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                                                           &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp F11  &kp F12  &kp F13  &kp F14  &trans  &trans                        &trans                     &trans  &trans  &trans  &trans  &trans
+&trans   &trans   &trans   &trans   &trans  &kp LS(LG(LEFT_BRACKET))      &kp LS(LG(RIGHT_BRACKET))  &trans  &trans  &trans  &trans  &trans
+&trans   &trans   &trans   &trans   &trans  &trans                        &trans                     &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
