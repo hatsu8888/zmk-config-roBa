@@ -99,10 +99,10 @@
 
         special {
             bindings = <
-&kp EXCL  &kp DOUBLE_QUOTES  &kp HASH  &kp LC(TAB)  &kp DOLLAR                      &kp PRCNT  &kp SINGLE_QUOTE  &kp LPAR      &kp RPAR   &kp PIPE
-&trans    &trans             &kp UP    &trans       &trans      &trans      &trans  &trans     &kp CARET         &kp TILDE     &kp AT     &kp GRAVE
-&trans    &kp LEFT           &kp DOWN  &kp RIGHT    &trans      &trans      &trans  &kp PLUS   &kp SEMICOLON     &kp ASTERISK  &kp COLON  &kp UNDERSCORE
-&trans    &trans             &trans    &trans       &trans      &trans      &trans  &trans                                                &trans
+&kp EXCL      &kp DOUBLE_QUOTES  &kp HASH  &kp LC(TAB)  &kp DOLLAR                      &kp PRCNT  &kp SINGLE_QUOTE  &kp LPAR      &kp RPAR   &kp PIPE
+&trans        &trans             &kp UP    &trans       &trans      &trans      &trans  &trans     &kp CARET         &kp TILDE     &kp AT     &kp GRAVE
+&bt BT_SEL 1  &kp LEFT           &kp DOWN  &kp RIGHT    &trans      &trans      &trans  &kp PLUS   &kp SEMICOLON     &kp ASTERISK  &kp COLON  &kp UNDERSCORE
+&bt BT_SEL 0  &trans             &trans    &trans       &trans      &trans      &trans  &trans                                                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
