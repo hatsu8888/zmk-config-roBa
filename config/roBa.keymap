@@ -36,7 +36,7 @@
             key-positions = <24 25>;
         };
 
-        MB3 {
+        mb3 {
             bindings = <&mkp MB3>;
             key-positions = <3 4>;
             layers = <0>;
