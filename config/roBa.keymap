@@ -71,7 +71,7 @@
 &kp Q             &kp W         &kp E         &kp R                   &kp T                                                                   &kp Y      &kp U  &lt 0 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                   &kp G     &mkp MB2                         &kp MINUS                    &kp H      &kp J  &kp K      &kp L    &kp SQT
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B     &kp LEFT_BRACKET                 &kp RIGHT_BRACKET            &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 SPACE  &mkp MB1  &lt_to_layer_0 2 LANGUAGE_1      &lt_to_layer_0 1 LANGUAGE_4  &kp ENTER                             &kp ESCAPE
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 3 SPACE  &mkp MB1  &lt_to_layer_0 2 LANGUAGE_1      &lt_to_layer_0 1 LANGUAGE_4  &kp ENTER                             &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -91,8 +91,8 @@
         NUM {
             bindings = <
 &trans  &trans        &trans        &trans         &trans                      &trans           &kp N7  &kp N8  &kp N9  &trans
-&trans  &trans        &sk LS(UP)    &trans         &trans  &trans      &trans  &trans           &kp N4  &kp N5  &kp N6  &trans
-&trans  &sk LS(LEFT)  &sk LS(DOWN)  &sk LS(RIGHT)  &trans  &trans      &trans  &kp KP_NUMBER_0  &kp N1  &kp N2  &kp N3  &trans
+&trans  &trans        &kp LS(UP)    &trans         &trans  &trans      &trans  &trans           &kp N4  &kp N5  &kp N6  &trans
+&trans  &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)  &trans  &trans      &trans  &kp KP_NUMBER_0  &kp N1  &kp N2  &kp N3  &trans
 &trans  &trans        &trans        &trans         &trans  &trans      &trans  &trans                                   &trans
             >;
         };
@@ -114,6 +114,15 @@
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
