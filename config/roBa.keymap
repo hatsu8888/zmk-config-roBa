@@ -71,10 +71,10 @@
 &kp Q             &kp W         &kp E         &kp R                   &kp T                                                                   &kp Y      &kp U  &lt 0 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                   &kp G     &mkp MB2                         &kp MINUS                    &kp H      &kp J  &kp K      &kp L    &kp SQT
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B     &kp LEFT_BRACKET                 &kp RIGHT_BRACKET            &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 3 SPACE  &mkp MB1  &lt_to_layer_0 2 LANGUAGE_1      &lt_to_layer_0 1 LANGUAGE_4  &kp ENTER                             &kp ESCAPE
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 3 SPACE  &mkp MB1  &lt_to_layer_0 2 LANGUAGE_2      &lt_to_layer_0 1 LANGUAGE_1  &kp ENTER                             &kp ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         FUNCTION {
