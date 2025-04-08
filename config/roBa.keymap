@@ -47,6 +47,11 @@
             bindings = <&kp LS(Z)>;
             key-positions = <22 23>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <8 9>;
+        };
     };
 
     macros {
@@ -82,10 +87,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                                  &kp Y      &kp U  &lt 0 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G     &mkp MB2                         &kp MINUS                   &kp H      &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B     &kp LEFT_BRACKET                 &kp RIGHT_BRACKET           &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 3 LANGUAGE_2  &mkp MB1  &lt_to_layer_0 2 LANGUAGE_1      &lt_to_layer_0 1 LC(SPACE)  &kp ENTER                             &kp ESCAPE
+&kp Q             &kp W         &kp E         &kp R                        &kp T                                                              &kp Y      &kp U  &lt 0 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F                        &kp G     &mkp MB2                         &kp MINUS               &kp H      &kp J  &kp K      &kp L    &kp SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B     &kp LEFT_BRACKET                 &kp RIGHT_BRACKET       &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 3 LANGUAGE_2  &mkp MB1  &lt_to_layer_0 2 LANGUAGE_1      &lt_to_layer_0 1 SPACE  &kp ENTER                             &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
