@@ -34,7 +34,7 @@
 
         mb3 {
             bindings = <&mkp MB3>;
-            key-positions = <3 4>;
+            key-positions = <24 25>;
             layers = <0>;
         };
 
@@ -46,6 +46,11 @@
         minus {
             bindings = <&kp MINUS>;
             key-positions = <20 19>;
+        };
+
+        mb2 {
+            bindings = <&mkp MB2>;
+            key-positions = <12 13>;
         };
     };
 
