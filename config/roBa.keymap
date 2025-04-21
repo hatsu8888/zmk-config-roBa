@@ -118,10 +118,10 @@
 
         special {
             bindings = <
-&kp EXCL      &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT                                                           &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LPAR      &kp RPAR   &kp PIPE
-&trans        &trans             &kp UP    &trans      &trans       &trans                        &trans                     &kp MINUS      &kp CARET         &kp TILDE     &kp AT     &kp GRAVE
-&bt BT_SEL 1  &kp LEFT           &kp DOWN  &kp RIGHT   &trans       &kp LS(LG(LEFT_BRACKET))      &kp LS(LG(RIGHT_BRACKET))  &kp PLUS       &kp SEMICOLON     &kp ASTERISK  &kp COLON  &kp UNDERSCORE
-&bt BT_SEL 0  &trans             &trans    &trans      &trans       &trans                        &trans                     &trans                                                    &trans
+&kp EXCL      &kp DOUBLE_QUOTES  &kp HASH   &kp DOLLAR  &kp PERCENT                                                           &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LPAR        &kp RPAR          &kp PIPE
+&kp QUESTION  &kp ASTERISK       &kp TILDE  &kp CARET   &kp AT       &trans                        &trans                     &kp MINUS      &kp COLON         &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp GRAVE
+&bt BT_SEL 1  &trans             &trans     &trans      &trans       &kp LS(LG(LEFT_BRACKET))      &kp LS(LG(RIGHT_BRACKET))  &kp PLUS       &kp SEMICOLON     &kp LESS_THAN   &kp GREATER_THAN  &kp UNDERSCORE
+&bt BT_SEL 0  &trans             &trans     &trans      &trans       &trans                        &trans                     &trans                                                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
