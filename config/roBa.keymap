@@ -93,7 +93,7 @@
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 3 LANGUAGE_2  &mkp MB1  &lt_to_layer_0 2 LANGUAGE_1      &lt_to_layer_0 1 SPACE  &kp ENTER                               &mt RCTRL ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS)>;
+            sensor-bindings = <&inc_dec_kp LG(MINUS) LG(PLUS)>;
         };
 
         FUNCTION {
