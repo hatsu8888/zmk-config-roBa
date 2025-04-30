@@ -114,6 +114,8 @@
 &trans  &trans        &trans        &trans         &trans  &kp LS(LG(LEFT_BRACKET))      &kp LS(LG(RIGHT_BRACKET))  &kp KP_NUMBER_0  &kp N1  &kp N2  &kp N3  &trans
 &trans  &trans        &trans        &trans         &trans  &trans                        &trans                     &kp NUMBER_0                             &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         special {
@@ -124,7 +126,7 @@
 &bt BT_SEL 0  &trans             &trans     &trans      &trans       &trans                        &trans                     &trans                                                             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         other {
