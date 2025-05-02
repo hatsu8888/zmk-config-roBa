@@ -104,7 +104,7 @@
 &trans   &trans   &trans   &trans   &trans  &trans                        &trans                     &trans                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         NUM {
@@ -115,7 +115,7 @@
 &trans  &trans        &trans        &trans         &trans  &trans                        &trans                     &kp NUMBER_0                             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         special {
@@ -126,7 +126,7 @@
 &bt BT_SEL 0  &trans             &trans     &trans      &trans         &trans                        &trans                     &trans                                                             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         other {
