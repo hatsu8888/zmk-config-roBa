@@ -104,8 +104,8 @@
 
         NUM {
             bindings = <
-&trans  &trans        &kp LS(UP)    &trans         &trans                                                           &trans           &kp N7  &kp N8  &kp N9  &kp PLUS
-&trans  &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)  &trans  &trans                        &trans                     &trans           &kp N4  &kp N5  &kp N6  &trans
+&trans  &trans        &kp LS(UP)    &trans         &trans                                                           &trans           &kp N7  &kp N8  &kp N9  &trans
+&trans  &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)  &trans  &trans                        &trans                     &trans           &kp N4  &kp N5  &kp N6  &kp PLUS
 &trans  &trans        &trans        &trans         &trans  &kp LS(LG(LEFT_BRACKET))      &kp LS(LG(RIGHT_BRACKET))  &kp KP_NUMBER_0  &kp N1  &kp N2  &kp N3  &trans
 &trans  &trans        &trans        &trans         &trans  &trans                        &trans                     &kp NUMBER_0                             &trans
             >;
@@ -116,8 +116,8 @@
         special {
             bindings = <
 &kp EXCL      &kp DOUBLE_QUOTES  &kp HASH   &kp DOLLAR  &kp PERCENT                                                             &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LPAR        &kp RPAR          &kp PIPE
-&kp QUESTION  &kp ASTERISK       &kp TILDE  &kp CARET   &kp AT         &trans                        &trans                     &kp MINUS      &kp COLON         &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp GRAVE
-&trans        &trans             &trans     &trans      &kp BACKSLASH  &kp LS(LG(LEFT_BRACKET))      &kp LS(LG(RIGHT_BRACKET))  &kp PLUS       &kp SEMICOLON     &kp LESS_THAN   &kp GREATER_THAN  &kp UNDERSCORE
+&kp QUESTION  &kp ASTERISK       &kp TILDE  &kp CARET   &kp AT         &trans                        &trans                     &kp BACKSLASH  &kp COLON         &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp GRAVE
+&trans        &kp PLUS           &trans     &trans      &kp BACKSLASH  &kp LS(LG(LEFT_BRACKET))      &kp LS(LG(RIGHT_BRACKET))  &kp PLUS       &kp SEMICOLON     &kp LESS_THAN   &kp GREATER_THAN  &kp UNDERSCORE
 &trans        &trans             &trans     &trans      &trans         &trans                        &trans                     &trans                                                             &trans
             >;
 
